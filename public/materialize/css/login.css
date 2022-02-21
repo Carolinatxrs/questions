@@ -1,0 +1,86 @@
+.table td,
+.table th {
+  background-color: #fff !important;
+}
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #ddd !important;
+}
+table {
+  background-color: transparent;
+}
+.table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+
+/* .table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+} */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+@media (min-width: 992px){
+.col-md-6 {
+    width: 50%;
+}
+}
+
+@media (min-width: 992px){
+.col-md-6 {
+    float: left;
+}
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: #e3f2fd;
+  outline: none;
+}
+
+/* muda a linha */
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #2196f3;
+  will-change: left, right;
+}
+
+.pagination li.active {
+  background-color: #2196f3;
+}
+
+#example th {
+  text-align: center;
+  background-color: #eceff1;
+}
+
+th, td {
+  border: 0.5px inset #bdbdbd;
+  border-collapse: collapse;
+  display: table-cell;
+  text-align: justify;
+  vertical-align: text-top;
+}
